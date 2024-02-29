@@ -1,0 +1,742 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: antiquewhite;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#homepage{
+    
+    height: 100vh;
+    
+}
+
+#homepage .heading{
+    
+    background-color: rgba(245, 219, 197, 0.971);
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+#homepage .heading .logo{
+    margin-left: 20px;
+}
+.menus ul{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.menus ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style: none;
+}
+
+.menus ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+/* end of heading */
+
+.center{
+    background-color: antiquewhite;
+    background-image: url(images/banner-bg.png);
+
+    background-attachment: fixed;
+    height: auto;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    
+    
+}
+.centerleft{
+
+    width: 400px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.centerleft .content{
+   
+    text-align: left;
+}
+.centerleft .content h1{
+    line-height: 25px;
+}
+
+.content p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.center button{
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border: none;
+    width: 80px;
+    border-radius: .5em;
+}
+
+.centerright{
+   
+    width: 400px;
+    height: 500px;
+}
+.centerright img{
+    height: 500px;
+}
+
+/* end of homepage */
+
+#productspage{
+     background-color: aliceblue;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+#productspage .heading{
+    
+    height: auto;
+    text-align: center;
+}
+
+.products{
+    
+    height: auto;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products .box{
+    border: 1px solid black;
+    height: 300px;
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.products .box img{
+    height: 200px;
+}
+
+.seemore{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.seemore input{
+    padding: 8px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    width: 90px;
+}
+
+#aboutpage{
+
+    background-color: rgb(233, 209, 209);
+    height: auto;
+    margin-top: 10px;
+}
+.information{
+    background-color: whitesmoke;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin: 20px;
+}
+.information .left{
+    width: 400px;
+    height: 300px;
+}
+
+.left .con{
+    text-align: left;
+    margin-top: 40px;
+}
+
+.left .con p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.left .con button{
+    padding: 8px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+.information .right{
+    width: 400px;
+    height: 300px;
+}
+
+.information .right img{
+    width: 100%;
+}
+
+#contactpage{
+    height: auto;
+    padding-bottom: 20px;
+    background-color: rgb(210, 210, 178);
+}
+
+#contactpage .heading{
+    text-align: center;
+}
+
+.contact{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    
+    
+}
+
+.contact form{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+form input{
+    width: 250px;
+    width: 300px;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.sms input{
+    height: 180px;
+    outline: none;
+}
+
+form button{
+    padding: 7px;
+    background-color: black;
+    color: white;
+    width: 80px;
+    border: none;
+    outline: none;
+}
+
+
+#client{
+   
+    background-color: rgb(244, 222, 196);
+    height: auto;
+    padding-bottom: 20px;
+}
+
+#client .heading{
+    text-align: center;
+   
+}
+
+.picture{
+   margin-top: 10px;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.image{
+   background-color: white;
+   width: 600px;
+   height: auto;
+   box-shadow: 2px 2px 2px 2px;
+}
+
+.image img{
+    margin-top: 10px;
+    width: 150px;
+    
+    
+
+
+}
+
+.image button{
+    background-color: black;
+    color: white;
+    padding: 7px;
+    width: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+}
+
+footer{
+    height: auto;
+    margin-top: 20px;
+    background-color: rgb(54, 48, 48);
+    color: white;
+}
+footer .chini{
+    height: auto;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.chin1{
+    height: auto;
+    margin: 20px;
+    width: 300px;
+    text-align: left;
+}
+
+.chin2{
+    height: auto;
+    margin: 20px;
+    width: 500px;
+}
+
+.chin3{
+    height: auto;
+    margin: 20px;
+    width: 300px;
+    text-align: left;
+}
+
+.chinikabisa{
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+/*   end of footer */
+
+
+@media only screen and (max-width: 600px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: antiquewhite;
+    }
+    
+    html{
+        scroll-behavior: smooth;
+    }
+    
+    #homepage{
+        
+        height: auto;
+        
+    }
+    
+    #homepage .heading{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: rgba(245, 219, 197, 0.971);
+        height: 40px;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        display: flex;
+    }
+    
+    #homepage .heading .logo{
+        margin-left: 100px;
+        text-align: center;
+    }
+.logo p{
+    font-size: 12px;
+}
+    .menus{
+        margin-top: 328px;
+        margin-right: 10px;
+        background-color: black;
+        
+        z-index: 1;
+        
+    }
+
+    .menus ul{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: block;
+        background-color: black;
+        
+    }
+    
+    .menus ul li{
+        margin-left: 10px;
+        margin-right: 10px;
+        list-style: none;
+        margin-top: 20px;
+        padding: 10px;
+    }
+    
+    .menus ul li a{
+        text-decoration: none;
+        color: white;
+        
+        
+    }
+    
+    /* end of heading */
+    
+    .center{
+        background-color: antiquewhite;
+         background-image: url(images/banner-bg.png);
+        background-attachment: fixed;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+    }
+    .centerleft{
+        margin-left: 20px;
+        width: 100%;
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+    }
+    .centerleft .content{
+       
+        text-align: left;
+    }
+    .centerleft .content h1{
+        line-height: 25px;
+    }
+    
+    .content p{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .center button{
+        background-color: black;
+        color: white;
+        padding: 7px;
+        border: none;
+        width: 80px;
+        border-radius: .5em;
+    }
+    
+    .centerright{
+       
+        width: 100%;
+        height: 300px;
+    }
+    .centerright img{
+        width: 100%;
+        height: 200px;
+    }
+    
+    /* end of homepage */
+    
+    #productspage{
+         background-color: aliceblue;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    
+    #productspage .heading{
+        
+        height: auto;
+        text-align: center;
+    }
+
+    #products .heading h1{
+        font-size: 16px;
+    }
+    
+    .products{
+        
+        height: auto;
+        margin: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .products .box{
+        border: 1px solid black;
+        height: 300px;
+        width: 250px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .products .box img{
+        height: 200px;
+    }
+    
+    .seemore{
+        
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+    }
+    
+    .seemore input{
+        padding: 8px;
+        outline: none;
+        border: none;
+        background-color: black;
+        color: white;
+        width: 90px;
+    }
+    
+    #aboutpage{
+    
+        background-color: rgb(233, 209, 209);
+        height: auto;
+        margin-top: 10px;
+    }
+    .information{
+        background-color: whitesmoke;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+    }
+    .information .left{
+        width: 400px;
+        height: 300px;
+    }
+    
+    .left .con{
+        text-align: left;
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    .con h1{
+        font-size: 16px;
+    }
+    .left .con p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .left .con button{
+        padding: 8px;
+        background-color: black;
+        color: white;
+        margin-top: 10px;
+    }
+    .information .right{
+        width: 400px;
+        height: 300px;
+    }
+    
+    .information .right img{
+        width: 100%;
+    }
+    
+    #contactpage{
+        height: auto;
+        padding-bottom: 20px;
+        background-color: rgb(210, 210, 178);
+    }
+    
+    #contactpage .heading{
+        text-align: center;
+    }
+    
+    .contact{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        
+        
+    }
+    
+    .contact form{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    form input{
+        width: 250px;
+        width: 300px;
+        padding: 8px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        outline: none;
+    }
+    
+    .sms input{
+        height: 180px;
+        outline: none;
+    }
+    
+    form button{
+        padding: 7px;
+        background-color: black;
+        color: white;
+        width: 80px;
+        border: none;
+        outline: none;
+    }
+    
+    
+    #client{
+       
+        background-color: rgb(244, 222, 196);
+        height: auto;
+        padding-bottom: 20px;
+    }
+    
+    #client .heading{
+        text-align: center;
+       
+    }
+    #client .heading h1{
+        font-size: 16px;
+    }
+    .picture{
+       margin-top: 10px;
+        height: auto;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    .image{
+       background-color: white;
+       width: 600px;
+       height: auto;
+       box-shadow: 2px 2px 2px 2px;
+    }
+    .image h2{
+        font-size: 12px;
+    }
+    .image img{
+        margin-top: 10px;
+        width: 150px;
+        
+        
+    
+    
+    }
+    
+    .image button{
+        background-color: black;
+        color: white;
+        padding: 7px;
+        width: 80px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: none;
+        outline: none;
+    }
+    
+    footer{
+        height: auto;
+        margin-top: 20px;
+        background-color: rgb(54, 48, 48);
+        color: white;
+    }
+    footer .chini{
+        height: auto;
+        margin: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    
+    }
+    
+    .chin1{
+        height: auto;
+        margin: 20px;
+        width: 300px;
+        text-align: left;
+    }
+    
+    .chin2{
+        height: auto;
+        margin: 20px;
+        width: 500px;
+    }
+    
+    .chin3{
+        height: auto;
+        margin: 20px;
+        width: 300px;
+        text-align: left;
+    }
+    
+    .chinikabisa{
+        background-color: antiquewhite;
+        color: black;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
+    }
+    
+    /*   end of footer */
+}
